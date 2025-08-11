@@ -66,7 +66,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_0xm2m")
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lquwl"]
-height = 47.0
+height = 40.0
 
 [node name="Node" type="Node"]
 
@@ -102,7 +102,7 @@ scale = Vector2(0.0221774, 0.0209674)
 texture = ExtResource("2_1bvp3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2(17.5, 503.5)
+position = Vector2(18, 506)
 shape = SubResource("CapsuleShape2D_lquwl")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
