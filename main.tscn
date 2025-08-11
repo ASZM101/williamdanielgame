@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://c6erujqcrxajt"]
+[gd_scene load_steps=7 format=4 uid="uid://c6erujqcrxajt"]
 
+[ext_resource type="Script" uid="uid://cnambo5ft8hxh" path="res://player.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://byarp00ekrknt" path="res://icon.svg" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://c5gvtmgmusosi" path="res://images/tiles.png" id="2_0xm2m"]
 
@@ -68,6 +69,7 @@ sources/0 = SubResource("TileSetAtlasSource_0xm2m")
 [node name="Node" type="Node"]
 
 [node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 position = Vector2(-459, -490)
