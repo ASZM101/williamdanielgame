@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://c5gvtmgmusosi" path="res://images/tiles.png" id="2_0xm2m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
-size = Vector2(760, 729)
+size = Vector2(36, 35)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xm2m"]
 texture = ExtResource("2_0xm2m")
@@ -72,12 +72,12 @@ sources/0 = SubResource("TileSetAtlasSource_0xm2m")
 script = ExtResource("1_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
-position = Vector2(-459, -490)
-scale = Vector2(5.9375, 5.70312)
+position = Vector2(19, 507.71)
+scale = Vector2(0.28125, 0.270148)
 texture = ExtResource("1_ig7tw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2(-458, -489.5)
+position = Vector2(19, 507.5)
 shape = SubResource("RectangleShape2D_0xm2m")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
